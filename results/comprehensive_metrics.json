@@ -1,0 +1,26 @@
+{
+  "lstm": {
+    "exact_match_rate": 0.32910547396528705,
+    "partial_match_rate": 0.7242990654205608,
+    "token_accuracy": 0.006309427362651879,
+    "exact_matches": 493,
+    "partial_matches": 1085,
+    "total_examples": 1498
+  },
+  "improved_lstm": {
+    "exact_match_rate": 0.6568758344459279,
+    "partial_match_rate": 0.917890520694259,
+    "token_accuracy": 0.013235158103543336,
+    "exact_matches": 984,
+    "partial_matches": 1375,
+    "total_examples": 1498
+  },
+  "transformer": {
+    "exact_match_rate": 0.5287049399198932,
+    "partial_match_rate": 0.8317757009345794,
+    "token_accuracy": 0.03657695507011936,
+    "exact_matches": 792,
+    "partial_matches": 1246,
+    "total_examples": 1498
+  }
+}
